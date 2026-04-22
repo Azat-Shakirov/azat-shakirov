@@ -70,17 +70,6 @@ Log ingestion, normalization, and anomaly-detection pipeline over Splunk and ELK
 ---
 
 ```bash
-$ cat stats.log
-```
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=azat-shakirov&show_icons=true&hide_border=true&theme=default&count_private=true" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=azat-shakirov&layout=compact&hide_border=true&theme=default" alt="Top languages" />
-</p>
-
----
-
-```bash
 $ ./contact.sh
 ```
 
