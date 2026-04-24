@@ -17,7 +17,7 @@
 $ whoami
 ```
 
-I build production AI systems and security tooling while finishing my CS degree. My focus is shipping things that work in production — not just in notebooks. Right now I'm deep in RAG pipelines with Claude API, LLM orchestration, and SOC automation. Four languages (English · Russian · Kyrgyz · Chinese), two continents, one philosophy: end-to-end ownership from design to deploy.
+I build production AI systems and security tooling while finishing my CS degree. My focus is shipping things that work in production — not just in notebooks. Right now I'm deep in RAG pipelines with Claude API, LLM orchestration, and SOC automation. Four languages (English · Russian · Kyrgyz · Chinese), in search of immortality.
 
 ---
 
