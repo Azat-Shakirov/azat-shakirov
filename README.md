@@ -17,7 +17,7 @@
 $ whoami
 ```
 
-I build production AI systems and security tooling while finishing my CS degree. My focus is shipping things that work in production — not just in notebooks. Right now I'm deep in RAG pipelines with Claude API, LLM orchestration, and SOC automation. Four languages (English · Russian · Kyrgyz · Chinese), in search of immortality.
+I build AI systems and security tooling while finishing my CS degree. The focus is production — things that actually run, fail, and get fixed. Right now that means RAG pipelines, LLM orchestration, and SOC automation. Four languages (English · Russian · Kyrgyz · Chinese), in search of immortality.
 
 ---
 
@@ -56,15 +56,15 @@ $ ls ./featured
 ```
 
 ### 🤖 [Yoko — Portfolio AI Chatbot](https://github.com/azat-shakirov/portfolio-chatbot)
-Production RAG pipeline on Railway. ChromaDB + LangChain + Claude API with reCAPTCHA v3/v2, sliding-window rate limiting, prompt-injection sanitization, and a 50k daily token budget. Cut Docker image from 5.8 GB → under 4 GB; resolved silent rate-limiter failure and 15s latency from unpinned dependencies.
+Production RAG pipeline on Railway. ChromaDB + LangChain + Claude API with reCAPTCHA v3/v2, a custom sliding-window rate limiter (the SlowAPI integration was silently doing nothing), prompt-injection sanitization, and a 50k daily token budget. Cut Docker image from 5.8 GB to under 4 GB. Fixed 15s response times traced to an unpinned dependency reloading the embedding model on every request.
 `LangChain` · `ChromaDB` · `FastAPI` · `Claude API` · `Railway`
 
 ### ⚙️ [Job Application Automation Pipeline](https://github.com/azat-shakirov/job-automation-pipeline)
-LLM orchestration with 3 chained Claude API calls, structured JSON validation, and automatic fallback handling. JD input → tailored `.docx` + Google Drive upload in under 60 seconds. Zero manual steps per application.
+Three chained Claude API calls with structured JSON validation and automatic fallback handling. JD input to tailored `.docx` and Google Drive upload in under 60 seconds. Zero manual steps per application.
 `Flask` · `n8n` · `Claude API` · `Google OAuth2` · `python-docx`
 
 ### 🛡️ [SOC Home Lab — Threat Detection & IR](https://azat-shakirov.github.io/soc-dashboard)
-Log ingestion, normalization, and anomaly-detection pipeline over Splunk and ELK. n8n SOAR workflows with severity routing reduced manual alert-handling by **70%** across **1,000+** log entries per run.
+Log ingestion, normalization, and anomaly-detection pipeline over Splunk and ELK. n8n SOAR workflows with severity routing cut manual alert-handling by **70%** across **1,000+** log entries per run.
 `Splunk` · `ELK Stack` · `n8n` · `Flask` · `Python`
 
 ---
